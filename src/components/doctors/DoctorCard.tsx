@@ -16,7 +16,7 @@ type Doctor = {
   degrees: string;
   fellowship: string;
   earliestAppointment: string;
-  consultingAvailablity: string;
+  consultingAvailablity: string[];
 };
 
 export default function DoctorCard({ doctor }: { doctor: Doctor }) {
